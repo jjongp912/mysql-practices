@@ -27,3 +27,11 @@ select name, birth from pets order by birth asc;
 select count(*) from pets;
 select count(*) from pets where death is not null;
 
+-- update(U)
+update pets
+set species='monkey'
+where name='choco';
+
+-- delete(D)
+delete from pets where death is not null;
+
