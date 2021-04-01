@@ -16,7 +16,7 @@ try:
     cursor = db.cursor(DictCursor)
 
     # SQL 실행
-    sql = 'insert into emaillist values(null, "박", "종진", "jjongp912@naver.com")'
+    sql = 'insert into emaillist values(null, "마", "이콜", "jjongp912@naver.com")'
     count = cursor.execute(sql)
 
     # commit
