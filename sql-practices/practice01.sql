@@ -11,12 +11,16 @@ select concat(first_name,' ',last_name) as '이름', gender as '성별', from_da
 from employees,salaries;
 
 
--- 문제3 (해결 못함)
+-- 문제3
 -- 여직원과 남직원은 각 각 몇 명이나 있나요? 
-select count(*) as '남성' , count(*) as '여성'
+select count(*) as '남성' 
 from employees 
-where gender = 'M'
-order by gender;
+where gender = 'M';
+
+select count(*) as '여설' 
+from employees 
+where gender = 'F';
+
 
 -- 문제4. 
 -- 현재 근무하고 있는 직원 수는 몇 명입니까? (salaries 테이블을 사용합니다.)  
