@@ -1,0 +1,7 @@
+==== sqlclient 설치하기 ====
+
+터미널에서
+# pip install mysqlclient
+
+툴에서
+settings -> python interpreter -> + 버튼 누르고 검색후 추가
